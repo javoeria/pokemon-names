@@ -1,7 +1,7 @@
 name: pokemon
-description: Get a random name from Pokémon creatures.
+description: Get a random name from Pokémon creatures, available in multiple languages.
 version: 0.0.1
-repository: https://github.com/javoeria/randomify/tree/main/packages/pokemon
+repository: https://github.com/javoeria/pokemon-names
 
 environment:
   sdk: ^3.6.0
@@ -13,3 +13,4 @@ dev_dependencies:
 topics:
   - pokemon
   - random
+  - placeholder

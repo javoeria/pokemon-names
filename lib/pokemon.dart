@@ -12,6 +12,7 @@ import 'package:pokemon/src/zh_hans.dart';
 import 'package:pokemon/src/zh_hant.dart';
 
 class Pokemon {
+  /// Get all supported languages.
   static const List<String> languages = [
     'de',
     'en',
@@ -25,6 +26,7 @@ class Pokemon {
     'zh-Hant',
   ];
 
+  /// Get all Pokémon names.
   static List<String> all([String language = 'en']) {
     switch (language) {
       case 'de':
@@ -53,11 +55,13 @@ class Pokemon {
     }
   }
 
+  /// Get random Pokémon name.
   static String random([String language = 'en']) {
     final list = all(language);
     return list[Random().nextInt(list.length)];
   }
 
+  /// Get Pokémon name from ID.
   static String getName(int id, [String language = 'en']) {
     final list = all(language);
     if (id < 1 || id > list.length) {
@@ -66,6 +70,7 @@ class Pokemon {
     return list[id - 1];
   }
 
+  /// Get Pokémon ID from name.
   static int getId(String name, [String language = 'en']) {
     final list = all(language);
     if (!list.contains(name)) {
