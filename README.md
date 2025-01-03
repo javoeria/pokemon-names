@@ -2,6 +2,11 @@
 
 Get a random name from [Pokémon](https://en.wikipedia.org/wiki/Pok%C3%A9mon) creatures.
 
+[![Build Status](https://github.com/javoeria/pokemon-names/actions/workflows/dart.yml/badge.svg)](https://github.com/javoeria/pokemon-names/actions/workflows/dart.yml)
+[![Pub Package](https://img.shields.io/pub/v/pokemon.svg)](https://pub.dev/packages/pokemon)
+
+![](header.jpg)
+
 ## Usage
 
 ### all(language)
@@ -48,11 +53,13 @@ Pokemon.getId('Relaxo', 'de');
 //=> 143
 ```
 
-### languages
+### getImageUrl(id)
+
+Get URL of Pokémon artwork from ID, all images are hosted on [PokéAPI](https://github.com/PokeAPI/sprites).
 
 ```dart
-Pokemon.languages.contains('ja');
-//=> true
+Pokemon.getImageUrl(235);
+//=> https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/235.png
 ```
 
 ## Supported languages

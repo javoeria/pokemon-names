@@ -79,4 +79,8 @@ class Pokemon {
     }
     return list.indexOf(name) + 1;
   }
+
+  /// Get URL of Pokémon artwork from ID.
+  static String getImageUrl(int id) =>
+      'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/$id.png';
 }
