@@ -76,8 +76,3 @@ Pokémon names are available for the following languages:
 - `th` (Thai)
 - `zh-Hans` (Simplified Chinese)
 - `zh-Hant` (Traditional Chinese)
-
-## Known issues
-
-- `ru` (Russian)
-	- Does not include Pokemon 1009-1025 (Future Paradox Pokemon, and Pokemon released in Gen 9 Expansions - The Teal Mask, and The Indigo Disk). Cannot find credible source for translation.

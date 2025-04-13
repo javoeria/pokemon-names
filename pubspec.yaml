@@ -1,6 +1,6 @@
 name: pokemon
 description: Get a random name from Pokémon creatures, available in multiple languages.
-version: 1.0.0
+version: 1.1.0
 repository: https://github.com/javoeria/pokemon-names
 
 environment:
